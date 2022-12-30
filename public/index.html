@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Formulario </title>
+</head>
+<body>
+    <h1>METODO POST</h1>
+        <form action="/api/productos/post" method="POST">
+            <p>Nombre: <input type="text" name="nombre" required></p>
+            <p>Descripcion: <input type="text" name="descripcion" required></p>
+            <p>Precio: <input type="number" name="precio" required></p>
+            <p>Stock: <input type="number" name="stock" required></p>
+            <p>Thumbnail: <input type="url" name="thumbnail" required></p>
+            <p>Codigo: <input type="number" name="codigo" required></p>
+            <button>Enviar</button>
+        </form>
+</body>
+</html>
